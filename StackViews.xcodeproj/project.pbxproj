@@ -13,6 +13,7 @@
 		CC9C2B6A27310D8100B11905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C2B6827310D8100B11905 /* Main.storyboard */; };
 		CC9C2B6C27310D8100B11905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9C2B6B27310D8100B11905 /* Assets.xcassets */; };
 		CC9C2B6F27310D8100B11905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C2B6D27310D8100B11905 /* LaunchScreen.storyboard */; };
+		CC9C2B772731132800B11905 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C2B762731132800B11905 /* MessagesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC9C2B6B27310D8100B11905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9C2B6E27310D8100B11905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9C2B7027310D8100B11905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9C2B762731132800B11905 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC9C2B6B27310D8100B11905 /* Assets.xcassets */,
 				CC9C2B6D27310D8100B11905 /* LaunchScreen.storyboard */,
 				CC9C2B7027310D8100B11905 /* Info.plist */,
+				CC9C2B762731132800B11905 /* MessagesTableViewCell.swift */,
 			);
 			path = StackViews;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9C2B6727310D8100B11905 /* ViewController.swift in Sources */,
+				CC9C2B772731132800B11905 /* MessagesTableViewCell.swift in Sources */,
 				CC9C2B6327310D8100B11905 /* AppDelegate.swift in Sources */,
 				CC9C2B6527310D8100B11905 /* SceneDelegate.swift in Sources */,
 			);
